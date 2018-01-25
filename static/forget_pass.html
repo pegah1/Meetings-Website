@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Forgot Password!</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  
+  <script language="javascript" src="js/config.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/scss.css" />
+  <link rel="stylesheet" type="text/css" href="css/frame.css" />
+  <link rel="stylesheet" type="text/css" href="css/change_pass.css" />
+  <link rel="stylesheet" type="text/css" href="css/forget_pass.css" />
+  
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="js/forgotpass.js" type="text/javascript"></script>
+  
+</head>
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="home.html">MEETING<span class="logo_colour"> :)</span></a></h1>
+          <h2>The scheduling tool you'll actually use. Find a date for a meeting 2x faster!</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="home.html">Home</a></li>
+          <li><a href="signin.html">Sign in</a></li>
+          <li><a href="signup.html">Create account</a></li>
+		  <li class="selected"><a href="signup.html">Forgot Password</a></li>
+        </ul>
+      </div>
+    </div>
+	<div id="content_header"></div>
+    <div id="site_content">
+		<div class="forget_pass"></div>
+		
+		<form method="POST">
+		<div class="login">
+				<p><span>New Password</span><input name="new_pass" type="text" value="" required=""/></p><br>
+				<p><span>Confirm New Password</span><input name="confirm_new_pass" type="text" value="" required=""/></p><br>
+				<p style="padding-top: 15px"><span>&nbsp;</span>
+				<input class="submit" type="submit" name="reset_pass" value="Reset" /></p>
+				</div>
+				</form>
+		
+      
+    </div>
+	 <div id="content_footer"></div>
+	 <div id="footer">
+       &copy; 2015 MEETING |<a href='home.html'>MEETING</a> | <a href="mailto:ptorkamandi@gmail.com?Subject=Hello%20again" target="_top">Send Mail</a> 
+    </div>
+  </div>
+</body>
+</html>

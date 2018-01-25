@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Profile!</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  
+    <script language="javascript" src="js/config.js"></script>
+	
+  <script src="js/jquery.js" type="text/javascript"></script>
+ <script src="js/profile.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="css/scss.css" />
+  <link rel="stylesheet" type="text/css" href="css/frame.css" />
+  <link rel="stylesheet" type="text/css" href="css/profile.css" />
+
+  
+ 
+  
+</head>
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+	  
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+		  <h1><a href="home.html">MEETING<span class="logo_colour"> :)</span></a></h1>
+		<h2>The scheduling tool you'll actually use. Find a date for a meeting 2x faster!</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="nav">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+		 
+          <li><a id="schedul">Schedul an event</a></li>
+          <li><a id="showpoll" href="#">My polls</a></li>
+		  <li><a href="#">Setting</a>
+		<ul>
+		<li><a id="signout">Sign out</a></li>
+			<li><a href="#">account</a>
+				<ul>
+					<li><a href="change_pass.html">Change Password</a></li>
+					<li><a href="change_email.html">Change Username</a></li>
+					
+				</ul>
+			</li>			
+		</ul>
+	</li>
+        </ul>
+      </div>
+    </div>
+	
+ <div id="content_header"></div>
+    <div id="site_content">
+	<div id="dashbord"><h1>MEETING dashbord</h1></div>
+	<table id="profile">
+     <tr>
+	 <td class="td1">Welcome to MEETING, <span id = "user_name"></span>.</td>
+	 </tr>
+	 <tr>
+	 <td class="td2">Here are a few things to get you started with MEETING.</td>
+	 </tr>
+	 <tr>
+	 <td class="td3"><input class="ch1"  type="checkbox" style="display: inline-block;" disabled checked >Activate your MEETING account</input></td>
+	 </tr>
+	 <tr>
+	 <td class="td4"><input class="ch2" type="checkbox">Schedul an event</input></td>
+	 </tr>
+	 </table>
+	 <br/>
+	 <br/>
+	<img src="css/images/date.jpg" >
+	<input id="schedul2" class="submit" type="submit" value="Schedul an event" />
+    
+  </div>
+  <div id="content_footer"></div>
+	<div id="footer">
+       &copy; 2015 MEETING |<a href='home.html'>MEETING</a> | <a href="mailto:ptorkamandi@gmail.com?Subject=Hello%20again" target="_top">Send Mail</a> 
+    </div>
+  
+  <script src="js/js-image-slider.js" type="text/javascript"></script>
+</body>
+</html>

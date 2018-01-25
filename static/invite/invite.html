@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Invite!</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=no" />
+  <meta name="Description" content="jQuery Tag-This is a simple-yet-powerful plugin that turns text into tags"/>
+  <link rel="stylesheet" type="text/css" href="../css/scss.css" />
+  <link rel="stylesheet" type="text/css" href="../css/frame.css" />
+  <link rel="stylesheet" type="text/css" href="../css/invite.css" />
+ 
+    
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a id="home" href="../home.html">MEETING<span class="logo_colour"> :)</span></a></h1>
+          <h2>The scheduling tool you'll actually use. Find a date for a meeting 2x faster!</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="#">Invite</a></li>
+        </ul>
+      </div>
+    </div>
+	<div id="content_header"></div>
+	<div id="site_content">
+	<div class="grad"></div>
+		<div class="_header">
+			<div><span id="first"></span> <span id="seccond"></span></div>
+		</div>
+	<form id="invite" method="POST">
+	<input name="email-tags" id="email-tags" />
+	<input id="button" class="btn" type="submit" value="finish" />
+			
+	</form>
+	</div>
+	
+	<div id="content_footer"></div>
+	<div id="footer">
+       &copy; 2015 MEETING |<a href='http://localhost:8000/home.html'>MEETING</a> | <a href="mailto:ptorkamandi@gmail.com?Subject=Hello%20again" target="_top">Send Mail</a> 
+    </div>
+</div>
+<script src="../js/config.js"></script>
+<script src="../js/jquery.js"></script>
+
+<script src="../js/jquery.tagthis.js"></script>
+
+<script src="main.js"></script>
+<script src="../js/invite.js"></script>
+
+
+</body>
+</html>

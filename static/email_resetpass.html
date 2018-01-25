@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+#cod:hover {opacity: 0.4;}
+</style>
+
+</head>
+<body>
+
+<div style="background-color:#87CEFA; color:white; width:700px; height:80px; text-align:center; padding:5px">
+<h1>MEETING</h1>
+</div>
+
+<div style="float:left; width:690px; height:300px; padding:10px; background-color:#F0F8FF">
+<h2><b>Hi <span>${this.name}</span></b></h2>
+<p>
+Please Reset your password. You only need to do this once.<br>
+just click the below link
+</p>
+<a style="color:blue; cursor:pointer" href="http://localhost:8001/user/${this.cod}/forgotPassword/resetpass">Reset Password</a>
+
+<br>
+<p style="font-size: 90%">
+We have sent you this e-mail because you forgot your password and reset that.<br>
+If you did not sign up for any MEETING account, you can ignore this e-mail.
+</p>
+<hr>
+<p>
+If you do not want sent e-mail for you<br>
+just click the below link
+</p>
+
+<a style="color:blue; cursor:pointer" href="http://localhost:8001/${this.email}/ignore/email">Ignore e-mail</a>
+
+</div>
+
+<div style="background-color:#87CEFA; color:white; clear:both; width:700px; height:50px; text-align:center; padding:5px;">
+
+</div>
+
+</body>
+</html>

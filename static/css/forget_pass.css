@@ -1,0 +1,45 @@
+#site_content
+{ width: 878px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0 20px 20px 40px;
+  background: #FFF;
+  border-left: 1px solid #ECECE0;
+  border-right: 1px solid #ECECE0;}
+
+.forget_pass{
+width:350px;
+height:300px;
+margin: 10px auto 0px auto;
+padding:0;
+position: relative;
+float: right;
+background:url(images/1.gif) no-repeat;
+border: none;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	right: calc(48% - 50px);
+	height: 150px;
+	width: 500px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input
+{  
+  width: 200px; 
+  }
+  
+.login .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 110px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #FFF;}

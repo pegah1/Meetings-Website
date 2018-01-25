@@ -1,0 +1,205 @@
+#nav {
+   float: right;
+}
+#nav li {
+    float: left;
+  padding: 0 0 0 6px;
+  list-style: none;
+  margin: 2px 2px 0 0;
+  background: #635B53 url(images/tab.png) no-repeat 0 0;
+}
+#nav a {
+   font: normal 100% 'trebuchet ms', sans-serif;
+  display: block; 
+  float: left; 
+  height: 20px;
+  padding: 6px 28px 5px 22px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: #635B53 url(images/tab.png) no-repeat 100% 0;
+}
+
+/* selected menu element */
+#nav li:hover > a {
+color: #ECEF01;
+}
+
+/* sublevels */
+#nav ul li:hover a, #nav li:hover li a {
+    background:none;
+    border:none;
+    color:#FFF;
+}
+#nav ul li a:hover {
+    background:#635B53;
+    color:#ECEF01;
+
+    border-radius:10px; /*some css3*/
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    text-decoration: none;
+}
+
+#nav ul li:first-child > a {
+    -moz-border-radius-topleft:10px; /*some css3*/
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+}
+#nav ul li:last-child > a {
+    -moz-border-radius-bottomleft:10px; /*some css3*/
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+}
+
+/* drop down */
+#nav li:hover > ul {
+    opacity:1;
+    visibility:visible;
+}
+#nav ul {
+	top:165px;
+    opacity:0;
+    visibility:hidden;
+    padding:0;
+    width:140px;
+    position:absolute;
+    background:#635B53 ;
+    border:1px solid #7788aa;
+
+    border-radius:10px; /*some css3*/
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -moz-box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0, .5);
+
+    -moz-transition:opacity .25s linear, visibility .1s linear .1s;
+    -webkit-transition:opacity .25s linear, visibility .1s linear .1s;
+    -o-transition:opacity .25s linear, visibility .1s linear .1s;
+    transition:opacity .25s linear, visibility .1s linear .1s;
+}
+#nav ul li {
+    float:none;
+    margin:0;
+}
+#nav ul a {
+    font-weight:normal;
+    text-decoration: none;
+}
+#nav ul ul {
+	width:160px;
+    left:100px;
+    top:40px;
+	left:80px;
+}
+#schedul{
+	cursor:pointer;
+}
+
+
+#dashbord{
+width:100%;
+height:90px;
+background:#6df2b0;
+padding-left:30px;
+padding-top:20px;
+font: normal 115% 'century gothic', arial, sans-serif;
+color:#3D3737;
+
+}
+#logo{
+opacity.8;
+}
+#site_content{
+padding:0;
+height:620px;
+width:938px;
+}
+table {
+	margin-top:40px;
+	margin-left:20px;
+	margin-bottom:50px;
+    border: 1px solid #88d8b0;
+    border-collapse: collapse;
+	width:900px;
+}
+th, td {
+font: normal 110% 'century gothic', arial, sans-serif;
+padding: 15px;
+color:#3D3737;
+}
+input[type=checkbox]{
+margin-right:10px;
+height:20px;
+width:20px;
+color:blue;
+	
+}
+
+.td1{
+height:40px;
+font: normal 120% 'century gothic', arial, sans-serif !important;
+}
+.td2{
+background-color:#b5f9d7;
+}
+
+.ch1, .ch2{
+width:20px;
+}
+img{
+width:100px; 
+height:140px;
+margin-left:50px;
+}
+
+
+.submit{
+	margin: 20px 0 0 0;
+	padding: 15px 8px;			
+	cursor: pointer;
+	border: 1px solid #417c2b;
+	overflow: visible;
+	display: inline-block;
+	color: #fff;
+	font: bold 1.2em arial, helvetica;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.4);		  
+	background-color: #50BD27;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.5)), to(rgba(255,255,255,0)));
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
+	background-image: -o-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
+	background-image: linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
+	-webkit-transition: background-color .2s ease-out;
+	-moz-transition: background-color .2s ease-out;
+	-ms-transition: background-color .2s ease-out; 
+	-o-transition: background-color .2s ease-out;  
+	background-color .2s ease-out;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow:  0 2px 1px rgba(0, 0, 0, .3),
+					  0 1px 0 rgba(255, 255, 255, .5) inset;
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .3),
+						0 1px 0 rgba(255, 255, 255, .5) inset;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, .3),
+				0 1px 0 rgba(255, 255, 255, .5) inset;			  						  
+}
+
+.submit:hover{
+	opacity:.8;
+}
+
+.submit:active{
+	position: relative;
+	top: 3px;
+	text-shadow: none;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .3) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .3) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .3) inset;
+}
+

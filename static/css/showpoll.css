@@ -1,0 +1,56 @@
+.empty{ font: normal 140% 'century gothic', arial, sans-serif;
+  color: #00bb11;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0
+  }
+form{
+margin-left:30px;
+margin-top:20px;
+}
+table #poll {
+    border: 1px solid black;
+    border-collapse: collapse;
+	width:600px;
+}
+
+th, td {
+    padding: 10px;
+	text-align:left;
+	
+}
+
+.title{
+	font:  normal 130% 'century gothic', arial, sans-serif;
+	height:35px;
+	width:170px;
+	border:none;
+	
+
+}
+a{
+color:#1a94f4;
+}
+.location{
+	font:  normal 120% 'century gothic', arial, sans-serif;
+	height: 35px;
+	width:300px;
+	border:none;
+	color:#667ed0;
+	
+}
+
+
+.admin{
+	font:  normal 130% 'century gothic', arial, sans-serif;
+	height: 35px;
+	width:150px;
+	border:none;
+	color:#667ed0;
+	
+}
+
+th{
+color:#516198;
+font:  normal 130% 'century gothic', arial, sans-serif;
+height:35px;
+}

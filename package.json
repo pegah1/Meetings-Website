@@ -1,0 +1,40 @@
+{
+  "name": "Meeting",
+  "version": "1.0.0",
+  "description": "Pegah Torkamandi Scholorship Project",
+  "main": "index.js",
+  "config": {
+    "webserver": {
+      "port": 8000,
+      "host": "0.0.0.0"
+    },
+    "apiserver": {
+      "port": 8001,
+      "host": "0.0.0.0"
+    },
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "username": "postgres",
+      "password": "pegah12345",
+      "dbname": "mydb"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pegah Torkamandi",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "fly-template": "^0.1.3",
+    "hapi": "^8.8.1",
+    "node-fs": "^0.1.7",
+    "nodemailer": "^1.4.0",
+    "pg": "^4.4.1",
+    "xoauth2": "^1.1.0"
+  },
+  "devDependencies": {
+    "jq-flip-switch": "0.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+.login
+{ margin: 15px 0 0 0;}
+
+.login p
+{ padding: 0 0 4px 0;}
+
+.login input
+{ padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.login .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #FFF;}
+  
+.login select
+{ width: 310px;}
+
+.login span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+   

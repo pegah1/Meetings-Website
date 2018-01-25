@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<div style="background-color:#87CEFA; color:white; height:80px; width:700px; text-align:center; padding:5px">
+<h1>MEETING</h1>
+</div>
+
+<div style="float:left; width:690px; padding:10px; height:330px; background-color:#F0F8FF">
+<h2><b>Hi there</b></h2>
+<p>
+${this.caller} invites you to participant in the MEETING poll ${this.pollName}.
+</p>
+
+<a style="color:blue; cursor:pointer" href="http://localhost:8001/${this.guest}/${this.pollID}/participate">Participant now</a>
+
+
+<br>
+
+<p style="font-size: 90%">
+You have received this e-mail because ${this.caller} has invited</br>
+you to participate in the METING poll ${this.pollName}.<br>
+<br>
+Please note that this is a personal invitation that cannot be shared<br>
+with other poll participants.
+</p>
+<hr>
+<p>
+If you do not want sent e-mail for you<br>
+just click the below link
+</p>
+
+<a style="color:blue; cursor:pointer" href="http://localhost:8001/${this.guest}/ignore/email">Ignore e-mail</a>
+</div>
+
+<div style="background-color:#87CEFA; color:white; clear:both; height:70px; width:700px; text-align:left; padding:5px; font-size: 90%">
+What is MEETING?<br>MEETING is a web service that helps ${this.caller} to
+find a suitable date for meeting with a group of people. <br>Learn more about
+how MEETING works.
+
+</div>
+
+</body>
+</html>

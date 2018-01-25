@@ -1,0 +1,92 @@
+body{
+	background: url(images/bg-3.jpg) no-repeat top fixed;
+	margin: 0;
+	padding: 0;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+#link_cod
+{
+color:#cbd3d6;
+}
+#link_cod:hover
+{
+color:#e0e152;
+}
+#site_content
+{ width: 878px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0 0 20px 40px;
+  background: url(images/bg-4.jpg) no-repeat;
+  border: none;
+ }
+h4
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #43423F;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+.list{
+width:400px;
+height:300px;
+margin: 50px auto 50px auto;
+padding:0;
+position: relative;
+float: left;
+background:transparent;
+border: none;
+}
+#site_content .list h4 .logo_colour{ 
+color: #ECEF01;
+opacity: 0.6;
+}
+.list ul{
+list-style-type:square;
+font: normal 130% 'century gothic', arial, sans-serif;
+ color: #FFF;
+}
+.activ_cod{
+	position: absolute;
+	margin: 30px auto 50px auto;
+	top: calc(45% - 75px);
+	left: calc(58% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.activ_cod input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: url(images/1.jpg);
+	border: 1px solid #696969;
+	border-radius: 2px;
+	color: #808080;
+	opacity: 0.7;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.activ_cod input[type=submit]{
+	width: 260px;
+	height: 35px;
+	background: url(images/2.jpg);
+	opacity : 0.7;
+	border: 1px solid #696969;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}

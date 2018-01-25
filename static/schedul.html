@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Schedul!</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  
+    <script language="javascript" src="js/config.js"></script>
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script language="javascript" src="js/schedul.js"></script>
+  
+  
+  <link rel="stylesheet" type="text/css" href="css/scss.css" />
+  <link rel="stylesheet" type="text/css" href="css/frame.css" />
+  <link rel="stylesheet" type="text/css" href="css/schedul.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a id="home" href="home.html">MEETING<span class="logo_colour">:)</span></a></h1>
+          <h2>The scheduling tool you'll actually use. Find a date for a meeting 2x faster!</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+            <li class="selected"><a href="#">General</a></li>
+        </ul>
+      </div>
+    </div>
+	<div id="content_header"></div>
+  <div id="site_content">
+   
+	
+    
+	<form id="signup">
+		<h1>1. General.</h1>
+		<input type="text" placeholder="Title" name="name" />
+		<input name="location" id="geocomplete" type="text" placeholder="Type in an address" />
+		<div class="map_canvas"></div>
+		<textarea rows="4" cols="50" name="subject" placeholder="Description" class="message"></textarea>
+		<div id="button">
+		</div>		
+</form>
+    
+  </div>
+  <div id="content_footer"></div>
+  <div id="footer">
+       &copy; 2015 MEETING |<a href='home.html'>MEETING</a> | <a href="mailto:ptorkamandi@gmail.com?Subject=Hello%20again" target="_top">Send Mail</a> 
+    </div>
+  </div>
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script src="js/jquery.geocomplete.js"></script>
+    <script src="js/logger.js"></script>
+</body>
+</html>

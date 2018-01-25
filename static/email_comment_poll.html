@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+
+</head>
+<body>
+
+<div style="background-color:#87CEFA; color:white; width:700px; height:80px; text-align:center; padding:5px">
+<h1>MEETING</h1>
+</div>
+
+<div style="float:left; width:690px; height:350px; padding:10px; background-color:#F0F8FF">
+<h2><b>Hi ${this.caller_name}</b></h2>
+<p>
+ 
+${this.name} just added a comment to MEETING poll "${this.pollname}."<br>
+<p style="color:purple">${this.msg}<br><br>
+
+participate count: ${this.group_count}<br>
+most popular date : ${this.date}
+</p>
+
+<a style="color:blue; cursor:pointer" href="http://localhost:8001/${this.caller}/${this.pollID}/participate">Go to poll</a>
+
+
+<p style="font-size: 90%">
+We have sent you this e-mail because you participated in a MEETING poll.<br>
+If you did not participated , you can ignore this e-mail.
+</p>
+<hr>
+<p>
+If you do not want sent e-mail for you<br>
+just click the below link
+</p>
+
+<a style="color:blue; cursor:pointer" href="http://localhost:8001/${this.email}/ignore/email">Ignore e-mail</a>
+
+</div>
+
+<div style="background-color:#87CEFA; color:white; height:50px; clear:both; width:700px; text-align:center; padding:5px;">
+
+</div>
+
+</body>
+</html>

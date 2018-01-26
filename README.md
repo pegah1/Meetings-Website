@@ -1,7 +1,7 @@
 # Meetings Website
-This project is written in nodejs and its library is postgresql and you need to install these two programs to run the program.
-To run it in your local area, just run the server in the command by type the command index.js 
-and go to the http: // localhost: 8001 / home.html, finally you can go to the home page of the website.
+you need to install the node.js and postgreSql, which is necessary for my DB, to run the project.
+in order to run the server you can type the index.js command. 
+and go to the http: // localhost: 8001 / home.html, finally you can go to the home page of the website in your local area.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
